@@ -1,0 +1,24 @@
+# Core
+numpy>=2.1.0
+pandas>=2.2.2
+PyYAML>=6.0.2
+
+# Graph database drivers
+neo4j>=5.25.0
+gqlalchemy>=1.6.0
+pyTigerGraph>=1.8.0
+
+# Benchmarking
+psutil>=6.0.0
+tqdm>=4.66.5
+
+# Data generation
+faker>=30.0.0
+
+# Analysis & visualization
+matplotlib>=3.9.2
+
+# Utilities
+python-dateutil>=2.9.0
+tabulate>=0.9.0
+requests>=2.32.3
