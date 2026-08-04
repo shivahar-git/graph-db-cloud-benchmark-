@@ -1,0 +1,133 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# ===========================
+# IDEs
+# ===========================
+.vscode/
+.idea/
+*.iml
+
+# ===========================
+# Operating System Files
+# ===========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===========================
+# Logs
+# ===========================
+*.log
+logs/
+*.out
+*.err
+
+# ===========================
+# Environment Variables
+# ===========================
+.env
+.env.*
+!.env.example
+
+# ===========================
+# Secrets / Credentials
+# ===========================
+config.local.yaml
+credentials.yaml
+secrets.yaml
+*.pem
+*.key
+*.crt
+
+# ===========================
+# Benchmark Outputs
+# ===========================
+results/*.csv
+results/*.json
+analysis/graphs/*.png
+analysis/graphs/*.jpg
+analysis/graphs/*.svg
+analysis/graphs/*.pdf
+
+# Keep directories
+!results/.gitkeep
+!analysis/graphs/.gitkeep
+
+# ===========================
+# Jupyter
+# ===========================
+.ipynb_checkpoints/
+
+# ===========================
+# Coverage / Testing
+# ===========================
+.coverage
+.coverage.*
+.pytest_cache/
+htmlcov/
+.tox/
+.nox/
+.cache/
+
+# ===========================
+# Type Checking
+# ===========================
+.mypy_cache/
+.pyre/
+.pytype/
+
+# ===========================
+# Packaging
+# ===========================
+*.whl
+
+# ===========================
+# Docker
+# ===========================
+docker-data/
+*.tar
+
+# ===========================
+# macOS
+# ===========================
+.AppleDouble
+.LSOverride
+
+# ===========================
+# Linux
+# ===========================
+*~
+
+# ===========================
+# Windows
+# ===========================
+ehthumbs.db
+Icon?
