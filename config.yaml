@@ -1,0 +1,80 @@
+# ==========================================
+# Graph Database Cloud Benchmark Configuration
+# ==========================================
+
+benchmark:
+  warmup_runs: 5
+  benchmark_runs: 30
+  query_timeout_seconds: 60
+  random_seed: 42
+  export_csv: true
+  export_json: true
+
+dataset:
+  generate_if_missing: true
+  file: datasets/sample_dataset.csv
+
+  nodes:
+    users: 50000
+    companies: 5000
+    cities: 250
+    countries: 50
+    products: 10000
+    categories: 100
+
+  relationships:
+    friend_of: 250000
+    purchased: 150000
+    works_at: 50000
+    lives_in: 50000
+    belongs_to: 10000
+    located_in: 250
+
+neo4j:
+  enabled: true
+  uri: bolt://localhost:7687
+  username: neo4j
+  password: password
+  database: neo4j
+
+memgraph:
+  enabled: true
+  uri: bolt://localhost:7688
+  username: ""
+  password: ""
+
+tigergraph:
+  enabled: false
+  host: http://localhost
+  graph_name: benchmark_graph
+  username: tigergraph
+  password: tigergraph
+
+cognodb:
+  enabled: false
+  endpoint: https://YOUR_ENDPOINT
+  api_key: YOUR_API_KEY
+
+queries:
+  directory: queries
+  files:
+    - q1.cypher
+    - q2.cypher
+    - q3.cypher
+    - q4.cypher
+    - q5.cypher
+
+results:
+  output_directory: results
+  csv_file: benchmark_results.csv
+  json_file: benchmark_results.json
+
+analysis:
+  graph_directory: analysis/graphs
+  save_png: true
+  save_svg: false
+  save_pdf: false
+
+logging:
+  level: INFO
+  log_to_file: false
