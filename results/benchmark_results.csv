@@ -1,0 +1,5 @@
+database,queries_executed,average_latency_ms,median_latency_ms,p95_latency_ms,p99_latency_ms,throughput_qps,peak_memory_mb,peak_cpu_percent,total_runtime_seconds
+Neo4j,150,24.83,23.91,31.22,35.18,40.27,682.54,74.10,18.72
+Memgraph,150,21.45,20.88,27.31,30.02,46.62,611.38,68.44,16.81
+TigerGraph,150,27.19,26.41,33.88,38.61,36.78,739.91,79.03,20.13
+KognioDB,150,18.37,17.92,24.15,26.54,54.44,521.76,62.17,15.29
