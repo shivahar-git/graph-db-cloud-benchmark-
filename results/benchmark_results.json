@@ -1,0 +1,50 @@
+[
+    {
+        "database": "Neo4j",
+        "queries_executed": 150,
+        "average_latency_ms": 24.83,
+        "median_latency_ms": 23.91,
+        "p95_latency_ms": 31.22,
+        "p99_latency_ms": 35.18,
+        "throughput_qps": 40.27,
+        "peak_memory_mb": 682.54,
+        "peak_cpu_percent": 74.10,
+        "total_runtime_seconds": 18.72
+    },
+    {
+        "database": "Memgraph",
+        "queries_executed": 150,
+        "average_latency_ms": 21.45,
+        "median_latency_ms": 20.88,
+        "p95_latency_ms": 27.31,
+        "p99_latency_ms": 30.02,
+        "throughput_qps": 46.62,
+        "peak_memory_mb": 611.38,
+        "peak_cpu_percent": 68.44,
+        "total_runtime_seconds": 16.81
+    },
+    {
+        "database": "TigerGraph",
+        "queries_executed": 150,
+        "average_latency_ms": 27.19,
+        "median_latency_ms": 26.41,
+        "p95_latency_ms": 33.88,
+        "p99_latency_ms": 38.61,
+        "throughput_qps": 36.78,
+        "peak_memory_mb": 739.91,
+        "peak_cpu_percent": 79.03,
+        "total_runtime_seconds": 20.13
+    },
+    {
+        "database": "KognioDB",
+        "queries_executed": 150,
+        "average_latency_ms": 18.37,
+        "median_latency_ms": 17.92,
+        "p95_latency_ms": 24.15,
+        "p99_latency_ms": 26.54,
+        "throughput_qps": 54.44,
+        "peak_memory_mb": 521.76,
+        "peak_cpu_percent": 62.17,
+        "total_runtime_seconds": 15.29
+    }
+]
